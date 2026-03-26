@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // Store the current path in sessionStorage
+      sessionStorage.setItem('redirectPath', location.pathname + location.search + location.hash);
+      // Redirect to the root
+      location.replace('/');
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
